@@ -31,6 +31,7 @@ def get_prime_factors(num)
     p_factors
 end
 
+# prime_factorization found at https://codereview.stackexchange.com/questions/57256/is-this-a-good-ruby-implementation-of-prime-factorization
 def prime_factorization(n)
     Prime.prime_division(n).flat_map {|factor, power| [factor] * power}
 end
@@ -53,4 +54,4 @@ def factor_frequency(arr)
     frequency
 end
 
-puts lcm(20)
+puts lcm(20) #Least Common Multiple of 1...20 is 232,792,560
