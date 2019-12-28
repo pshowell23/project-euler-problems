@@ -6,3 +6,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 2. Even Fibonacci Numbers: Ruby
 3. Largest Prime Factor: Go
 4. Largest Palindrome Product: Ruby
+5. Smallest Multiple: Ruby
