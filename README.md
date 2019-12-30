@@ -9,3 +9,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 5. Smallest Multiple: Ruby
 6. Sum Square Difference: Go, JavaScript
 7. 10001st Prime: Ruby
+8. Largest Product in Series: Python
