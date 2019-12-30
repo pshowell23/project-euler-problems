@@ -8,3 +8,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 4. Largest Palindrome Product: Ruby
 5. Smallest Multiple: Ruby
 6. Sum Square Difference: Go, JavaScript
+7. 10001st Prime: Ruby
