@@ -2,8 +2,7 @@ number = 73167176531330624919225119674426574742355349194934969835203127745063262
 
 #Takes list and finds largest number
 def get_largest_product(arr):
-    arr.sort()
-    return "The largest product is: " + str(arr[-1])
+    return f"The Largest Product is: {max(arr)}"
 
 #Takes a number and amount of adjacent digits, finds product of adjacent digits, adds product to list, returns list
 def products_in_series(num_series, length_of_series_section):
