@@ -25,4 +25,4 @@ def product_of_triplets(limit)
     product
 end
 
-print product_of_triplets(1000) #Should equal 103,680,000
+puts product_of_triplets(1000) #Should equal 103,680,000
