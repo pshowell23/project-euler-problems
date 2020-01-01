@@ -11,3 +11,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 7. 10001st Prime: Ruby
 8. Largest Product in Series: Python
 9. Special Pythagorean Triplet: Ruby
+10. Summation of Primes: JavaScript
