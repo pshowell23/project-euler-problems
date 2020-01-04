@@ -113,4 +113,4 @@ def get_first_digits(number, amt_of_digits)
     number.to_s.slice(0, amt_of_digits)
 end
 
-puts get_first_digits(sum_of_numbers(numbers), 10)
+puts get_first_digits(sum_of_numbers(numbers), 10) #Answer: 5537376230...
