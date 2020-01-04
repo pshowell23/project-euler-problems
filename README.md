@@ -14,3 +14,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 10. Summation of Primes: JavaScript
 11. Largest Product in Grid: JavaScript
 12. Highly Divisible Triangular Number: Python
+13. Large Sum: Ruby
