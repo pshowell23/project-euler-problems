@@ -15,3 +15,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 11. Largest Product in Grid: JavaScript
 12. Highly Divisible Triangular Number: Python
 13. Large Sum: Ruby
+14. Longest Collatz Sequence: Ruby
