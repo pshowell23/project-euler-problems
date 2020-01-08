@@ -16,3 +16,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 12. Highly Divisible Triangular Number: Python
 13. Large Sum: Ruby
 14. Longest Collatz Sequence: Ruby
+15. Power Digit Sum: Ruby
