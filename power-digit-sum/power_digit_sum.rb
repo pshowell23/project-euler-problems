@@ -1,8 +1,7 @@
 #Takes number (base) to power of exp and returns sum of the answer's digits
 def power_digit_sum(base, exp)
-    num = (base ** exp).digits
     sum = 0
-    for i in num
+    for i in (base ** exp).digits
         sum += i
     end
     sum
