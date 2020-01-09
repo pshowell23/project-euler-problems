@@ -17,3 +17,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 13. Large Sum: Ruby
 14. Longest Collatz Sequence: Ruby
 15. Power Digit Sum: Ruby
+16. Letter Number Counts: Ruby
