@@ -1,9 +1,8 @@
 require 'humanize'
 
 def letter_number_counts(x)
-    arr = numbers_to_words(x)
     sum = 0
-    arr.each {|num| sum += num.length unless num == ' ' || num == '-'}
+    numbers_to_words(x).each {|num| sum += num.length unless num == ' ' || num == '-'}
     "The sum of all letters used in the numbers 1 - #{x} is #{sum}"
 end
 
