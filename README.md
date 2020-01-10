@@ -16,5 +16,7 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 12. Highly Divisible Triangular Number: Python
 13. Large Sum: Ruby
 14. Longest Collatz Sequence: Ruby
-15. Power Digit Sum: Ruby
-16. Letter Number Counts: Ruby
+15. Lattice Paths: Python
+16. Power Digit Sum: Ruby
+17. Letter Number Counts: Ruby
+18. Maximum Path Sum I: JavaScript
