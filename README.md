@@ -20,3 +20,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 16. Power Digit Sum: Ruby
 17. Letter Number Counts: Ruby
 18. Maximum Path Sum I: JavaScript
+19. Counting Sundays: Go
