@@ -1,16 +1,12 @@
-def factorial (x)
+def factorial_digits_sum (x)
     product = 1
+    sum = 0
     while x > 1
         product *= x
         x -= 1
     end
-    product
-end
-
-def add_digits(x)
-    sum = 0
-    x.digits.each {|d| sum += d}
+    product.digits.each {|digit| sum += digit}
     sum
 end
 
-puts add_digits(factorial(100))
+puts factorial_digits_sum(100)
