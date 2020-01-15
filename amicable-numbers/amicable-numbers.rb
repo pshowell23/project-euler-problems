@@ -1,8 +1,5 @@
 def sum_of_amicable_numbers_under(x)
-    amicable_numbers = amicable_numbers_under(x)
-    sum = 0
-    amicable_numbers.each {|n| sum += n}
-    sum
+    amicable_numbers_under(x).sum
 end
 
 def amicable_numbers_under(x)
@@ -22,10 +19,8 @@ def is_amicable(x, y)
 end
 
 def sum_of_divisors(x)
-    sum = 0
     whole_divisors = (1..x).select {|n| x % n == 0 && n != x}
-    whole_divisors.each {|n| sum += n}
-    sum
+    whole_divisors.sum
 end
 
 puts sum_of_amicable_numbers_under(10000) # Answer: 31,626
