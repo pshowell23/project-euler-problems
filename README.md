@@ -22,3 +22,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 18. Maximum Path Sum I: JavaScript
 19. Counting Sundays: Go
 20. Factorial Digit Sum: Go, Ruby
+21. Amicable Numbers: Ruby
