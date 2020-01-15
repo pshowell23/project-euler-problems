@@ -15,7 +15,7 @@ def amicable_numbers_under(x)
 end
 
 def is_amicable(x, y)
-    return true if sum_of_divisors(x) == y && sum_of_divisors(y) == x && x != y
+    return true if sum_of_divisors(y) == x && x != y
 end
 
 def sum_of_divisors(x)
