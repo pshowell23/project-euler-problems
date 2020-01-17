@@ -23,3 +23,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 19. Counting Sundays: Go
 20. Factorial Digit Sum: Go, Ruby
 21. Amicable Numbers: Ruby
+22. Non-Abundant Sums: Ruby
