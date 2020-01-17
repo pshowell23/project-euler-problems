@@ -1,10 +1,8 @@
 def non_abundant_sums(x)
     abundant_nums = get_abundant_nums(x)
     double_abundants = get_double_abundants(abundant_nums, x)
-    sum = 0
-    for num in 1..x
-        sum += num unless sum_of_abundants?(abundant_nums, num) || (double_abundants.include? num)
-    end
+    other_nums = (1..x).select {|n| !(double_abundants.include?(x)) || !sum_of_abundants(abundant_nums, x)}
+    sum = other_nums.sum
     "The sum of non-abundant numbers belonw #{x} is #{sum}"
 end
 
@@ -39,4 +37,4 @@ def sum_of_abundants?(arr, x)
     !!arr.uniq.combination(2).detect {|a, b| a + b == x}
 end
 
-print get_abundant_nums(285)
+print non_abundant_sums(28123)
