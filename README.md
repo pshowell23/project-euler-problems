@@ -24,3 +24,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 20. Factorial Digit Sum: Go, Ruby
 21. Amicable Numbers: Ruby
 22. Non-Abundant Sums: Ruby
+23. Lexicographic Permutations: Ruby
