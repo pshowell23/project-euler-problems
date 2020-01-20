@@ -26,3 +26,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 22. Non-Abundant Sums: Ruby
 23. Lexicographic Permutations: Ruby
 24. 1000 Digit Fibonacci Number: Ruby
+25. Reciprocal Cycles: JavaScript
