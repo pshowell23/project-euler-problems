@@ -25,3 +25,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 21. Amicable Numbers: Ruby
 22. Non-Abundant Sums: Ruby
 23. Lexicographic Permutations: Ruby
+24. 1000 Digit Fibonacci Number: Ruby
