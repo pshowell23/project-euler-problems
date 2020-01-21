@@ -23,7 +23,8 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 19. Counting Sundays: Go
 20. Factorial Digit Sum: Go, Ruby
 21. Amicable Numbers: Ruby
-22. Non-Abundant Sums: Ruby
-23. Lexicographic Permutations: Ruby
-24. 1000 Digit Fibonacci Number: Ruby
-25. Reciprocal Cycles: JavaScript
+22. Names Scores: Ruby
+23. Non-Abundant Sums: Ruby
+24. Lexicographic Permutations: Ruby
+25. 1000 Digit Fibonacci Number: Ruby
+26. Reciprocal Cycles: JavaScript
