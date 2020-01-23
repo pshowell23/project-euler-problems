@@ -30,3 +30,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 26. Reciprocal Cycles: JavaScript
 27. Quadratic Primes:
 28. Number Spiral Diagonals: Ruby
+29. Distinct Powers: JavaScript
