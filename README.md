@@ -28,7 +28,7 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 24. Lexicographic Permutations: Ruby
 25. 1000 Digit Fibonacci Number: Ruby
 26. Reciprocal Cycles: JavaScript
-27. Quadratic Primes:
+27. Quadratic Primes: Ruby
 28. Number Spiral Diagonals: Ruby
 29. Distinct Powers: JavaScript, Ruby
 30. Digit Fifth Powers: JavaScript
