@@ -3,7 +3,6 @@ require 'prime'
 def quadratic_primes(max_ab)
     a = -(max_ab - 1)
     bs = get_primes(max_ab)
-    p bs
     answers = []
     c = 0
     new_a = 0
