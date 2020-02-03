@@ -12,7 +12,7 @@ def quadratic_primes(max_ab)
     while a < max_ab
         bs.each do |b|
             n = consecutive_primes(a, b)
-            if n == c + 1
+            if n > c
                 c = n
                 new_a = a
                 new_b = b
