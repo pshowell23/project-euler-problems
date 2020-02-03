@@ -38,4 +38,4 @@ def consecutive_primes(a, b)
     return n
 end
 
-p quadratic_primes(1000)
+p quadratic_primes(1000) #Answer: -59,231
