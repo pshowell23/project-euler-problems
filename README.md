@@ -32,3 +32,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 28. Number Spiral Diagonals: Ruby
 29. Distinct Powers: JavaScript, Ruby
 30. Digit Fifth Powers: JavaScript
+31. Coin Sums: JavaScript

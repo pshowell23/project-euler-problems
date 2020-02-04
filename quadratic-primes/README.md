@@ -1,3 +1,4 @@
+# Quadratic Primes
 Euler discovered the remarkable quadratic formula:
 
 n<sup>2</sup>+n+41
