@@ -15,9 +15,9 @@ def get_pandigital_products(max, max_digit)
                 while y < max
                     if has_unique_digits(y)
                         if is_pandigital_to(x, y, x * y, max_digit)
-                            multipliers << x unless multipliers.include?(x)
-                            multipliers << y unless multipliers.include?(y)
-                            products << x * y unless products.include?(x * y)
+                            multipliers << x unless multipliers.include? x
+                            multipliers << y unless multipliers.include? y
+                            products << x * y unless products.include? x * y
                         end
                     end
                     y += 1
