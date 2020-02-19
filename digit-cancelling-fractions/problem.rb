@@ -9,18 +9,18 @@ def get_denominator_of_fraction_product(arr)
 end
 
 def get_digit_cancelling_fractions()
-    nums = (12..98).select {|num| num % 10 != 0 and num.digits.uniq.length > 1}
-    possible_fractions = find_fractions(nums)
+    nums = (12..98).select {|num| num % 10 != 0 and num % 11 != 0}
+    possible_fractions = make_fractions(nums)
     digit_cancelling_fractions = []
     for fraction in possible_fractions
-        if digit_cancelling_fraction(fraction[0], fraction[1])
+        if digit_cancelling_fraction?(fraction[0], fraction[1])
             digit_cancelling_fractions << fraction
         end
     end
     digit_cancelling_fractions
 end
 
-def find_fractions(arr)
+def make_fractions(arr)
     fractions = []
     for num in arr
         for den in arr
@@ -36,7 +36,7 @@ def find_fractions(arr)
     fractions
 end
 
-def digit_cancelling_fraction(num, den)
+def digit_cancelling_fraction?(num, den)
     if num.digits.sort != den.digits.sort
         common_digit = num.digits & den.digits
         new_num = (num.digits - common_digit).join.to_f
