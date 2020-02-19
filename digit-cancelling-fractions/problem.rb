@@ -23,7 +23,7 @@ def get_possible_nums()
     nums = []
     for num in 12..98
         if num % 10 != 0
-            if num.digits.uniq().length > 1
+            if num.digits.uniq.length > 1
                 nums << num
             end
         end
