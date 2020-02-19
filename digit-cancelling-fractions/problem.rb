@@ -9,7 +9,8 @@ def get_denominator_of_fraction_product(arr)
 end
 
 def get_digit_cancelling_fractions()
-    possible_fractions = find_fractions(get_possible_nums())
+    nums = (12..98).select {|num| num % 10 != 0 and num.digits.uniq.length > 1}
+    possible_fractions = find_fractions(nums)
     digit_cancelling_fractions = []
     for fraction in possible_fractions
         if digit_cancelling_fraction(fraction[0], fraction[1])
@@ -17,18 +18,6 @@ def get_digit_cancelling_fractions()
         end
     end
     digit_cancelling_fractions
-end
-
-def get_possible_nums()
-    nums = []
-    for num in 12..98
-        if num % 10 != 0
-            if num.digits.uniq.length > 1
-                nums << num
-            end
-        end
-    end
-    nums
 end
 
 def find_fractions(arr)
