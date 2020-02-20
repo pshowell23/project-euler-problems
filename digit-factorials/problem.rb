@@ -20,4 +20,4 @@ def factorial(num)
     product
 end
 
-digit_factorial(999999999)
+digit_factorial(7 * factorial(9)) #Answer: 145 and 40,585
