@@ -35,3 +35,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 31. Coin Sums: JavaScript
 32. Pandigital Products: Ruby
 33. Digit Cancelling Fractions: Ruby
+34. Digit Factorials: Ruby
