@@ -36,3 +36,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 32. Pandigital Products: Ruby
 33. Digit Cancelling Fractions: Ruby
 34. Digit Factorials: Ruby
+35. Circular Primes: Ruby
