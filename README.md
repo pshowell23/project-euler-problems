@@ -39,3 +39,4 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 35. Circular Primes: Ruby
 36. Double-base Palindromes: Ruby
 37. Truncatable Primes: Ruby
+38. Pandigital Multiples: Ruby
