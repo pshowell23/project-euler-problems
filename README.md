@@ -40,3 +40,6 @@ Solving problems from [Project Euler](https://projecteuler.net/archives)
 36. Double-base Palindromes: Ruby
 37. Truncatable Primes: Ruby
 38. Pandigital Multiples: Ruby
+39.
+40.
+41. Pandigital Prime: Ruby

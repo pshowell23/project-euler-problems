@@ -5,3 +5,5 @@ end
 def sqrt_of(num)
     Math.sqrt(num)
 end
+
+puts get_pandigital_numbers(4)
