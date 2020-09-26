@@ -11,15 +11,7 @@ def highest_pandigital_prime
 end
 
 def get_prime_pandigitals_of_n_digits(max_digit)
-  prime_pandigitals = []
-  pandigital_numbers = get_pandigital_numbers(max_digit)
-  pandigital_numbers.each {|num| prime_pandigitals << num if Prime.prime?(num)}
-  prime_pandigitals
-end
-
-def get_pandigital_numbers(max_digit)
-    pandigital_numbers = (1..max_digit).to_a.permutation.map &:join
-    pandigital_numbers.map(&:to_i)
+  (1..max_digit).to_a.permutation.map(&:join).map(&:to_i).select { |num| Prime.prime?(num) }
 end
 
 puts highest_pandigital_prime() # Answer: 7652413
